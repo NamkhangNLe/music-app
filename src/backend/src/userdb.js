@@ -74,7 +74,6 @@ async function deleteAccount(username, password) {
 }
 
 async function findAccount(username, password) {
-  console.log(uri);
   const client = new MongoClient(uri);
 
   try {
